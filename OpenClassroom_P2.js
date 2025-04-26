@@ -110,3 +110,9 @@ for (let i = 0; i < listeMots.length; i++){
 }
 console.log("Votre score est de "+score+" sur 5")
 console.log("Merci d'avoir joué")
+
+/*Fonctions*/
+function retourneScore(score,nombreQuestions){
+    let message = "Votre score est de " + score + " sur " + nombreQuestions
+    return message
+}

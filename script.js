@@ -1,10 +1,5 @@
-console.log('Vive les beaux pieds mais surtout les très beaux pieds')
-
-const listeMots = ["pieds","orteils","ongles","plantes","talons"]
 let score=0
-const listePhrases=["Les pieds sont la partie du corps la plus sensuelle",
-    "La belle manucure est un bijoux",
-    "La plante de pied rosée est un délice"]
+console.log('Vive les beaux pieds mais surtout les très beaux pieds')
 
 const phrases="phrases"
 const mots="mots"
@@ -27,7 +22,7 @@ if(choix === phrases){
             console.log("Vous n'avez pas tapé la phrase")
         }
     }
-    console.log("Votre score est de "+score+" sur 3")
+    console.log("Votre score est de "+score+" sur "+listePhrases.length)
     console.log("Merci d'avoir joué")
 }
 else if(choix === mots){
@@ -43,7 +38,7 @@ else if(choix === mots){
             console.log("Vous n'avez pas tapé le mot")
         }
     }
-    console.log("Votre score est de "+score+" sur 5")
+    console.log("Votre score est de "+score+" sur "+listeMots.length)
     console.log("Merci d'avoir joué")
 }
     
