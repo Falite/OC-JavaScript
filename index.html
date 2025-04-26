@@ -5,13 +5,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <script src="main.js" defer></script>
         <script src="scriptv2.js" defer></script>
         <script src="config.js" defet></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="zoneChoix">
+            <input type="radio" name="optionSource" id="mots" value="1" checked>
+            <label for="mots">Mots</label>
+            <input type="radio" name="optionSource" id="phrases" value="2">
+            <label for="phrases">Phrases</label>
+        </div>
         <div id="zoneProposition">
             Entrez le mot : <span>Cachalot</span>
+        </div>
+
+        <div class="zoneProposition">
+            Azerty
+        </div>
+
+        <div class="zoneSaisie">
+            <input type="text" id="inputEcriture" name="inputEcriture">
+            <button id="btnValiderMot">Valider</button>
+        </div>
+
+        <div class="zoneScore">
+            Votre score : <span>0</span>
         </div>
     </body>
 </html>
