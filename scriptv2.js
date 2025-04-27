@@ -8,6 +8,14 @@ function afficherResultat(score, nombreQuestions){
     console.log(message)
 }
 
+function afficherResultatv2(score, nombreQuestions){
+    let message = retourneScore(score, nombreQuestions)
+    let spanscore = document.querySelectorAll(".zoneScore span")
+    let affichageScore = `${score} / ${nombreQuestions}`
+    spanscore.innetText = affichageScore
+    console.log(message)
+}
+
 function choisirPhraseOuMot(){
     let choix = prompt("Choisissez phrases ou mots :")
     while(choix !== "phrases" && choix !== "mots"){
@@ -49,8 +57,8 @@ function lancerJeu(){
         liste = listeMots
     }
     score = lancerBoucleDeJeu(choix)
-    afficherResultat(score, liste.length)
+    afficherResultatv2(score, liste.length)
     console.log("Merci d'avoir joué")
 }
 
-//lancerJeu()
+lancerJeu()

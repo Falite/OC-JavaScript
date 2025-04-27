@@ -17,6 +17,8 @@ console.log(baliseZoneProposition)
     })
 }*/
 
+/*Séléectionner des éléments du DOM*/
+
 // Selection avec GetElementById
 let mot = document.getElementById("inputEcriture")
 console.log(mot)
@@ -30,3 +32,11 @@ console.log(zoneScore)
 // Selection avec QuerySelectorAll
 let listeInputRadio = document.querySelectorAll(".zoneChoix input")
 console.log(listeInputRadio)
+
+/*Modifier un élément du DOM*/
+
+let baliseImage = document.getElementById("randomImage")
+baliseImage.setAttribute("alt", "image vraiment très random")
+baliseImage.classList.add("imageRandom")
+
+baliseImage.alt = "image tellement random"
