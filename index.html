@@ -6,12 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <script src="main.js" defer></script>
-        <script src="scriptv2.js" defer></script>
+        <script src="scriptv3.js" defer></script>
         <script src="config.js" defet></script>
         <script src="script2.js" defer></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
+            <a href="index.html">Retour à l'accueil</a>
+            <a href="formulaire.html">Formulaire</a>
+        </header>
         <img src="randomImage.jpg" id="randomImage" alt="image random"
          class="image_illustration">
 
@@ -22,10 +26,8 @@
             <input type="radio" name="optionSource" id="phrases" value="2">
             <label for="phrases">Phrases</label>
         </div>
-        <div id="zoneProposition">
-            Entrez le mot : <span>Cachalot</span>
-        </div>
-
+        
+        Entrez le mot : 
         <div class="zoneProposition">
             Azerty
         </div>
@@ -38,5 +40,6 @@
         <div class="zoneScore">
             Votre score : <span>0</span>
         </div>
+        <button id="Bouton_recommencer">Recommencer</button>
     </body>
 </html>

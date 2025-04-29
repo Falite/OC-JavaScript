@@ -32,3 +32,9 @@ let div = `
 `;
 
 body.innerHTML += div;
+
+/*Récupérer le bouton et ajouter un écouteur d'événement*/
+let bouton2 = document.getElementById("Bouton_recommencer");
+    bouton2.addEventListener("click", function(){
+        console.log("Vous avez cliqué sur le bouton recommencer");
+    });

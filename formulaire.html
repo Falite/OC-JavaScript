@@ -1,0 +1,44 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script3.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">Retour à l'accueil</a>
+            <h1>Jeu de mots</h1>
+        </header>
+        <img src="randomImage.jpg" id="randomImage" alt="image random"
+         class="image_illustration">
+
+         <form id="formulaire">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" value="Ben Laden" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Votre message"></textarea>
+            <input type="submit" value="Envoyer">
+            <label for="femme">Femme</label>
+            <input type="checkbox" id="femme" name="femme" checked>
+        <p>
+            <label for="menstruations">Menstruations :</label>
+            <input type="radio" id="nichons" name="menstruations" value="gros seins" checked>
+            <label for="nichons">Gros seins</label>
+            <input type="radio" id="petitsseins" name="menstruations" value="petits seins">
+            <label for="petits seins">Petits seins</label>
+            <input type="radio" id="groscul" name="menstruations" value="gros cul">
+            <label for="groscul">Gros cul</label>
+            <input type="radio" id="petitcul" name="menstruations" value="petit cul">
+            <label for="petitcul">Petit cul</label>
+        </p>
+        <button>Envoyer</button>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Réinitialiser">
+
+         </form>
+</html>

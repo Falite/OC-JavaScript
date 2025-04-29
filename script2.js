@@ -1,3 +1,5 @@
+
+
 /*Définition des variables contenant le texte du titre et du paragaphe*/
 let titre = "Jeu de mots";
 let ContenuParagraphe = "Le but du jeu est de trouver le mot ou la phrase en fonction de l'indice donné. Vous pouvez choisir entre les mots et les phrases. Amusez-vous bien !";
@@ -33,3 +35,9 @@ let div = `
 `;
 
 body.innerHTML += div;
+
+/*Récupérer le bouton et ajouter un écouteur d'événement*/
+let bouton = document.getElementById("Bouton_recommencer");
+    bouton.addEventListener("click", function(){
+        console.log("Vous avez cliqué sur le bouton recommencer");
+    });

@@ -22,8 +22,8 @@ console.log(baliseZoneProposition)
 // Selection avec GetElementById
 let mot = document.getElementById("inputEcriture")
 console.log(mot)
-let bouton = document.getElementById("btnValiderMot")
-console.log(bouton)
+let boutonValider = document.getElementById("btnValiderMot")
+console.log(boutonValider)
 
 // Selection avec QuerySelector
 let zoneScore = document.querySelector("#zoneScore")
