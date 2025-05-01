@@ -69,6 +69,8 @@ function lancerJeu(){
     }
     
     afficherResultatv2(score, nbmots)
+
+    gérerFormulaire()
    
 }
 
